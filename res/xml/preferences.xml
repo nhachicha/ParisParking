@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/menu_settings" >
+    <PreferenceCategory android:title="CONFIGURATION">
+        	<EditTextPreference
+	                android:key="pref_nbr_result"
+	                android:title="@string/pref_nbr_of_result"
+	                android:inputType="numberDecimal"
+	                 />    
+        
+        	
+       <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/array_system_unit_labels"
+        android:entryValues="@array/array_system_unit_ids"
+        android:key="pref_units_system"
+        android:title="@string/pref_unit_mesure"
+         />
+    </PreferenceCategory>
+            
+
+</PreferenceScreen>

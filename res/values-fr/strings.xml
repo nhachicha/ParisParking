@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">ParisParking</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="title_activity_main">Paris Parking</string>
+    <string name="menu_settings">Préférences</string>
+    <string name="menu_about">A propos</string>
+ 	<string name="alert_dialog_text_entry">Cherche une position</string>
+ 	<string name="alert_dialog_address">Adresse</string>
+    <string name="unit_meter">Mètres</string>
+    <string name="unit_yard">Yard</string>
+    <string name="unit_kilo">Kilomètres</string>
+    <string name="unit_mile">Miles</string>
+    <string name="action_start_nav">Démarrer une Navigation</string>
+    <string name="action_start_map">Montrer dans la Carte</string>
+    <string name="parking_marker">Parking</string>
+    <string name="action_menu_title">Choisir une Action</string>
+    <string name="pref_current_value">Valeur: </string>
+    <string name="find_by_current_location_title">Ma position actuelle</string>
+    <string name="find_by_address_title">Saisir une adresse</string>
+    <string name="find_by_current_location_detail">utiliser le GPS pour localiser</string>
+    <string name="find_by_address_detail">géocoder pour obtenir la position</string>
+    <string name="dlg_search_address_title">Localisation par adresse</string>
+    <string name="dlg_search_address_msg">Recherche en cours&#8230;</string>
+    <string name="dlg_search_no_loc_found">Désolé, pas de localisation trouvée</string>
+    <string name="dlg_search_choose_address">Choisissez une adresse</string>
+    <string name="dlg_standard_loading">En attente du signal GPS&#8230;</string>
+
+	<string name="enable_gps">Activer le GPS</string>
+	<string name="enable_gps_dialog">Activer le GPS pour récupérer votre position et naviguer vers le Parking</string>
+    <string name="pref_nbr_of_result">Nombre de résultat</string>
+ 	<string name="pref_unit_mesure">Unité de mesure</string>
+ 	
+     <string-array name="array_system_unit_labels">
+        <item>Métrique</item>
+        <item>Impériale</item>
+    </string-array>
+    <string-array name="array_system_unit_ids">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+        <string name="about_txt">L\'application ParisParking permet de retrouver et naviguer vers les Parking les plus proches à Paris.\n
+Cette application utilise les données publiques (Opendata) mises à disposition par la mairie de Paris\n
+elle est par conséquent limitée aux mobiliers de stationnement recensés par la mairie de Paris.\n\n
+
+- Permet de retrouver les Parkings les plus proches grâce à la géolocalisation (GPS) ou en saisissant une adresse à Paris.\n
+- Affiche la distance et la position du Parking sur Google Map.\n
+- Affiche l\'itinéraire vers le Parking à l\'aide de Google Navigation.\n
+&#169; Nabil HACHICHA</string>
+</resources>

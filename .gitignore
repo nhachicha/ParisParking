@@ -1,0 +1,10 @@
+target
+.apt_generated
+.project
+.factorypath
+bin
+tmp
+lint.xml
+proguard-project.txt
+Release.txt
+

@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">ParisParking</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Paris Parking</string>
+    <string name="menu_view_map">View</string>
+    <string name="menu_settings">Preferences</string>
+    <string name="menu_about">About</string>
+ 	<string name="alert_dialog_text_entry">Lookup a location</string>
+ 	<string name="alert_dialog_address">Address</string>
+    <string name="unit_meter">Meters</string>
+    <string name="unit_yard">Yard</string>
+    <string name="unit_kilo">Kilometers</string>
+    <string name="unit_mile">Miles</string>
+    <string name="action_start_nav">Start a Navigation</string>
+    <string name="action_start_map">Show in Map</string>
+    <string name="parking_marker">Parking</string>
+    <string name="action_menu_title">Choose Action</string>
+    <string name="pref_current_value">Value: </string>
+    <string name="find_by_current_location_title">My current location</string>
+    <string name="find_by_address_title">Enter address</string>
+    <string name="find_by_current_location_detail">use GPS to pinpoint</string>
+    <string name="find_by_address_detail">geocode to get position</string>
+    <string name="dlg_search_address_title">Location by address</string>
+    <string name="dlg_search_address_msg">Search in progress&#8230;</string>
+    <string name="dlg_search_no_loc_found">Sorry no location found</string>
+    <string name="dlg_search_choose_address">Choose an address</string>
+    <string name="dlg_standard_loading">Waiting for GPS signal&#8230;</string>
+	<string name="enable_gps">Enable GPS</string>
+	<string name="enable_gps_dialog">Enable GPS to get your location and navigate to Parking</string>
+ 	<string name="pref_nbr_of_result">Number of results</string>
+ 	<string name="pref_unit_mesure">Measurement unit</string>
+
+ 	
+     <string-array name="array_system_unit_labels">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="array_system_unit_ids">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string name="about_txt">ParisParking helps you find a Parking place inside Paris.\n
+The application is made available thanks to the identified parking furniture shared through Opendata by the city of Paris\n\n
+
+- Allows you to find the closest parking using geolocation (GPS) or by entering an address in Paris.\n
+- Displays the distance and position of the Parking on Google Map.\n
+- Displays the route to the Parking using Google Navigation.\n\n
+&#169; Nabil HACHICHA</string>
+
+</resources>
