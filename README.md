@@ -14,6 +14,10 @@ Tools
 The App use [Android Annoptation](https://github.com/excilys/androidannotation) framework 
 and [ActionBarSherlock] (http://actionbarsherlock.com/)
 
+Download
+----------
+From [PlayStore](https://play.google.com/store/apps/details?id=dev.nhachicha.parisparking)
+
 License
 -------
 
