@@ -22,9 +22,9 @@ limitations under the License.
 public class Constant {
     
     public final static String MANGODB_URL = "https://api.mongolab.com/api/1/databases";
-    public final static String MANGODB_API_KEY = "500573b6e4b0772ac8325e7c";
-    public final static String MANGODB_DB_NAME = "parking";
-    public final static String MANGODB_COLLECTION_NAME = "places";
+    public final static String MANGODB_API_KEY = "?";
+    public final static String MANGODB_DB_NAME = "?";
+    public final static String MANGODB_COLLECTION_NAME = "?";
     
     //First param: Longitude, Second param: Latitude, Third param: Number of result
     public final static String JSON_SEARCH_PAYLOAD_TEMPLATE = "{\"geoNear\": \"places\",\"near\":[%f,%f], \"spherical\": true, \"distanceMultiplier\": 6378000, \"num\": %d}";
